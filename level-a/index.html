@@ -96,8 +96,9 @@
       if(e.keyCode===123||((e.ctrlKey||e.metaKey)&&e.shiftKey&&(k==='I'||k==='J'||k==='C'))||
         ((e.ctrlKey||e.metaKey)&&k==='U')){e.preventDefault();bye();}});
     document.addEventListener('contextmenu',function(e){e.preventDefault();});
-    setInterval(function(){if(window.outerWidth-window.innerWidth>220||
-      window.outerHeight-window.innerHeight>220)bye();},1000);})();
+    if(matchMedia('(pointer:fine)').matches){
+      setInterval(function(){if(window.outerWidth-window.innerWidth>220||
+        window.outerHeight-window.innerHeight>220)bye();},1000);}})();
   // access gate (casual, client-side): enter once, remembered on this device
   (function(){var K='luma7_ok',g=document.getElementById('gate'),i=document.getElementById('gpin'),
     e=document.getElementById('gerr');
