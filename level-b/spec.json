@@ -1,0 +1,467 @@
+[
+  {
+    "lesson": 1,
+    "unit": "Environment",
+    "title": "Sharks",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          6,
+          7
+        ],
+        "pages": [
+          6,
+          7
+        ],
+        "mp3": "rv-b-01.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          8,
+          9
+        ],
+        "pages": [
+          8,
+          9
+        ],
+        "mp3": "rv-b-02.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 2,
+    "unit": "Environment",
+    "title": "The Pacific Ocean",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          14,
+          15
+        ],
+        "pages": [
+          14,
+          15
+        ],
+        "mp3": "rv-b-03.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          16,
+          17
+        ],
+        "pages": [
+          16,
+          17
+        ],
+        "mp3": "rv-b-04.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 3,
+    "unit": "Environment",
+    "title": "Pollution",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          22,
+          23
+        ],
+        "pages": [
+          22,
+          23
+        ],
+        "mp3": "rv-b-05.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          24,
+          25
+        ],
+        "pages": [
+          24,
+          25
+        ],
+        "mp3": "rv-b-06.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 4,
+    "unit": "Rocks",
+    "title": "We've Struck Gold!",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          32,
+          33
+        ],
+        "pages": [
+          32,
+          33
+        ],
+        "mp3": "rv-b-07.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          34,
+          35
+        ],
+        "pages": [
+          34,
+          35
+        ],
+        "mp3": "rv-b-08.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 5,
+    "unit": "Rocks",
+    "title": "Let's Use a Rock",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          40,
+          41
+        ],
+        "pages": [
+          40,
+          41
+        ],
+        "mp3": "rv-b-09.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          42,
+          43
+        ],
+        "pages": [
+          42,
+          43
+        ],
+        "mp3": "rv-b-10.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 6,
+    "unit": "Rocks",
+    "title": "Mount Rushmore",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          48,
+          49
+        ],
+        "pages": [
+          48,
+          49
+        ],
+        "mp3": "rv-b-11.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          50,
+          51
+        ],
+        "pages": [
+          50,
+          51
+        ],
+        "mp3": "rv-b-12.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 7,
+    "unit": "Space",
+    "title": "Let's Ride into Space",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          58,
+          59
+        ],
+        "pages": [
+          58,
+          59
+        ],
+        "mp3": "rv-b-13.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          60,
+          61
+        ],
+        "pages": [
+          60,
+          61
+        ],
+        "mp3": "rv-b-14.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 8,
+    "unit": "Space",
+    "title": "Eclipse",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          66,
+          67
+        ],
+        "pages": [
+          66,
+          67
+        ],
+        "mp3": "rv-b-15.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          68,
+          69
+        ],
+        "pages": [
+          68,
+          69
+        ],
+        "mp3": "rv-b-16.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 9,
+    "unit": "Space",
+    "title": "How Much Do You Weigh?",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          74,
+          75
+        ],
+        "pages": [
+          74,
+          75
+        ],
+        "mp3": "rv-b-17.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          76,
+          77
+        ],
+        "pages": [
+          76,
+          77
+        ],
+        "mp3": "rv-b-18.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 10,
+    "unit": "Human Body",
+    "title": "Bones",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          84,
+          85
+        ],
+        "pages": [
+          84,
+          85
+        ],
+        "mp3": "rv-b-19.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          86,
+          87
+        ],
+        "pages": [
+          86,
+          87
+        ],
+        "mp3": "rv-b-20.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 11,
+    "unit": "Human Body",
+    "title": "Wow! That's Tall!",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          92,
+          93
+        ],
+        "pages": [
+          92,
+          93
+        ],
+        "mp3": "rv-b-21.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          94,
+          95
+        ],
+        "pages": [
+          94,
+          95
+        ],
+        "mp3": "rv-b-22.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 12,
+    "unit": "Human Body",
+    "title": "Staying Healthy",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          100,
+          101
+        ],
+        "pages": [
+          100,
+          101
+        ],
+        "mp3": "rv-b-23.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          102,
+          103
+        ],
+        "pages": [
+          102,
+          103
+        ],
+        "mp3": "rv-b-24.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 13,
+    "unit": "Heroes",
+    "title": "Edison the Wizard",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          110,
+          111
+        ],
+        "pages": [
+          110,
+          111
+        ],
+        "mp3": "rv-b-25.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          112,
+          113
+        ],
+        "pages": [
+          112,
+          113
+        ],
+        "mp3": "rv-b-26.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 14,
+    "unit": "Heroes",
+    "title": "A Dream Come True",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          118,
+          119
+        ],
+        "pages": [
+          118,
+          119
+        ],
+        "mp3": "rv-b-27.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          120,
+          121
+        ],
+        "pages": [
+          120,
+          121
+        ],
+        "mp3": "rv-b-28.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 15,
+    "unit": "Heroes",
+    "title": "Great Player, Great Heart",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          126,
+          127
+        ],
+        "pages": [
+          126,
+          127
+        ],
+        "mp3": "rv-b-29.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          128,
+          129
+        ],
+        "pages": [
+          128,
+          129
+        ],
+        "mp3": "rv-b-30.mp3"
+      }
+    ]
+  }
+]
