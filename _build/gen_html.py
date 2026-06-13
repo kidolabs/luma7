@@ -37,7 +37,7 @@ for ui, (uname, lessons) in enumerate(units, 1):
                 btn = (f'<button class="nghe" data-src="audio/{esc(it["mp3"])}" '
                        f'data-unit="Unit {ui} · {esc(uname)}" '
                        f'data-title="Lesson {L["lesson"]} · {esc(L["title"])} — {kind}">'
-                       f'▶ Listen — {kind}</button>')
+                       f'<span class="ic">🔊</span> Listen — {kind}</button>')
             blocks.append(f'<div class="block"><div class="btag">{kind}</div>{btn}'
                           f'<div class="imgs">{imgs}</div></div>')
         lh.append(f'<div class="lesson"><h3>Lesson {L["lesson"]} — {esc(L["title"])}</h3>'
@@ -105,13 +105,17 @@ JS = """
       elCur=P.querySelector('.cur2'),elRem=P.querySelector('.rem'),elSeek=P.querySelector('.pseek input'),
       elSpeed=P.querySelector('.pspeed');
   function fmt(t){t=Math.max(0,t|0);return (t/60|0)+':'+('0'+(t%60)).slice(-2);}
-  function mark(){btns.forEach(function(b,i){b.classList.toggle('playing',i===cur&&!au.paused);});
+  function mark(){btns.forEach(function(b,i){var on=(i===cur&&!au.paused);
+    b.classList.toggle('playing',on);b.querySelector('.ic').textContent=on?'⏸':'🔊';});
     elPlay.textContent=au.paused?'▶':'⏸';}
   function load(i){if(i<0||i>=btns.length)return;cur=i;var b=btns[i];
     au.src=b.dataset.src;au.playbackRate=speeds[si];
     elUnit.textContent=b.dataset.unit;elTitle.textContent=b.dataset.title;
     P.classList.add('show');au.play();}
-  btns.forEach(function(b,i){b.addEventListener('click',function(){i===cur?(au.paused?au.play():au.pause()):load(i);});});
+  // each Listen button toggles its track: play -> show player + pause icon;
+  // tapping it again pauses and hides the player bar.
+  btns.forEach(function(b,i){b.addEventListener('click',function(){
+    if(i===cur&&!au.paused){au.pause();P.classList.remove('show');}else{load(i);}});});
   elPlay.onclick=function(){au.paused?au.play():au.pause();};
   P.querySelector('.pprev').onclick=function(){load(cur-1);};
   P.querySelector('.pnext').onclick=function(){load(cur+1);};
