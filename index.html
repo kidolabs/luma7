@@ -58,4 +58,29 @@
   </div>
 </main>
 <footer>Each book: Word List + Reading pages only (exercises removed), with the publisher's original audio — read &amp; listen offline.</footer>
+<div id="gate"><div class="gbox"><h2>🔒 Enter code</h2>
+  <input id="gpin" type="password" inputmode="numeric" autocomplete="off" placeholder="••••••">
+  <button id="gbtn">Enter</button><div class="gerr" id="gerr"></div></div></div>
+<style>
+  #gate{position:fixed;inset:0;z-index:100;background:linear-gradient(135deg,#1f6fb2,#16324a);display:none;align-items:center;justify-content:center;padding:20px}
+  #gate .gbox{background:#fff;border-radius:16px;padding:30px 26px;width:min(340px,92vw);text-align:center;box-shadow:0 12px 40px rgba(0,0,0,.35)}
+  #gate h2{margin:0 0 16px;font-size:20px;color:#1f6fb2}
+  #gate input{width:100%;font-size:22px;text-align:center;letter-spacing:6px;padding:12px;border:2px solid #cfe0ef;border-radius:10px;outline:none}
+  #gate input:focus{border-color:#1f6fb2}
+  #gate button{width:100%;margin-top:14px;font-size:16px;font-weight:700;color:#fff;background:#1f6fb2;border:none;border-radius:10px;padding:12px;cursor:pointer}
+  #gate .gerr{color:#ef4444;font-size:13px;height:16px;margin-top:8px}
+</style>
+<script>
+  (function(){function bye(){location.replace('https://www.google.com');}
+    document.addEventListener('keydown',function(e){var k=(e.key||'').toUpperCase();
+      if(e.keyCode===123||((e.ctrlKey||e.metaKey)&&e.shiftKey&&(k==='I'||k==='J'||k==='C'))||((e.ctrlKey||e.metaKey)&&k==='U')){e.preventDefault();bye();}});
+    document.addEventListener('contextmenu',function(e){e.preventDefault();});
+    setInterval(function(){if(window.outerWidth-window.innerWidth>220||window.outerHeight-window.innerHeight>220)bye();},1000);})();
+  (function(){var K='luma7_ok',g=document.getElementById('gate'),i=document.getElementById('gpin'),e=document.getElementById('gerr');
+    if(localStorage.getItem(K)==='1')return;
+    g.style.display='flex';document.body.style.overflow='hidden';i.focus();
+    function go(){if(i.value===atob('MTYwOTI1')){localStorage.setItem(K,'1');g.style.display='none';document.body.style.overflow='';}else{e.textContent='Wrong code';i.value='';i.focus();}}
+    document.getElementById('gbtn').onclick=go;
+    i.addEventListener('keydown',function(ev){if(ev.key==='Enter')go();});})();
+</script>
 </body></html>
