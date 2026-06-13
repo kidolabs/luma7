@@ -1,0 +1,467 @@
+[
+  {
+    "lesson": 1,
+    "unit": "Architecture",
+    "title": "A Dream Job",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          6,
+          7
+        ],
+        "pages": [
+          6,
+          7
+        ],
+        "mp3": "rv-d-01.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          8,
+          9
+        ],
+        "pages": [
+          8,
+          9
+        ],
+        "mp3": "rv-d-02.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 2,
+    "unit": "Architecture",
+    "title": "Amazing Architecture",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          14,
+          15
+        ],
+        "pages": [
+          14,
+          15
+        ],
+        "mp3": "rv-d-03.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          16,
+          17
+        ],
+        "pages": [
+          16,
+          17
+        ],
+        "mp3": "rv-d-04.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 3,
+    "unit": "Architecture",
+    "title": "Frank Lloyd Wright",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          22,
+          23
+        ],
+        "pages": [
+          22,
+          23
+        ],
+        "mp3": "rv-d-05.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          24,
+          25
+        ],
+        "pages": [
+          24,
+          25
+        ],
+        "mp3": "rv-d-06.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 4,
+    "unit": "Sports",
+    "title": "The Human Machine",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          32,
+          33
+        ],
+        "pages": [
+          32,
+          33
+        ],
+        "mp3": "rv-d-07.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          34,
+          35
+        ],
+        "pages": [
+          34,
+          35
+        ],
+        "mp3": "rv-d-08.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 5,
+    "unit": "Sports",
+    "title": "The Ancient Olympics",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          40,
+          41
+        ],
+        "pages": [
+          40,
+          41
+        ],
+        "mp3": "rv-d-09.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          42,
+          43
+        ],
+        "pages": [
+          42,
+          43
+        ],
+        "mp3": "rv-d-10.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 6,
+    "unit": "Sports",
+    "title": "Playing Favorites",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          48,
+          49
+        ],
+        "pages": [
+          48,
+          49
+        ],
+        "mp3": "rv-d-11.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          50,
+          51
+        ],
+        "pages": [
+          50,
+          51
+        ],
+        "mp3": "rv-d-12.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 7,
+    "unit": "Caring for Animals",
+    "title": "Your Dog the Celebrity",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          58,
+          59
+        ],
+        "pages": [
+          58,
+          59
+        ],
+        "mp3": "rv-d-13.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          60,
+          61
+        ],
+        "pages": [
+          60,
+          61
+        ],
+        "mp3": "rv-d-14.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 8,
+    "unit": "Caring for Animals",
+    "title": "Living with Animals",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          66,
+          67
+        ],
+        "pages": [
+          66,
+          67
+        ],
+        "mp3": "rv-d-15.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          68,
+          69
+        ],
+        "pages": [
+          68,
+          69
+        ],
+        "mp3": "rv-d-16.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 9,
+    "unit": "Caring for Animals",
+    "title": "A Healthy Pet is a Happy Pet",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          74,
+          75
+        ],
+        "pages": [
+          74,
+          75
+        ],
+        "mp3": "rv-d-17.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          76,
+          77
+        ],
+        "pages": [
+          76,
+          77
+        ],
+        "mp3": "rv-d-18.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 10,
+    "unit": "World Connections",
+    "title": "Going Places",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          84,
+          85
+        ],
+        "pages": [
+          84,
+          85
+        ],
+        "mp3": "rv-d-19.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          86,
+          87
+        ],
+        "pages": [
+          86,
+          87
+        ],
+        "mp3": "rv-d-20.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 11,
+    "unit": "World Connections",
+    "title": "A Quick Bite to Eat",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          92,
+          93
+        ],
+        "pages": [
+          92,
+          93
+        ],
+        "mp3": "rv-d-21.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          94,
+          95
+        ],
+        "pages": [
+          94,
+          95
+        ],
+        "mp3": "rv-d-22.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 12,
+    "unit": "World Connections",
+    "title": "Home Away from Home",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          100,
+          101
+        ],
+        "pages": [
+          100,
+          101
+        ],
+        "mp3": "rv-d-23.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          102,
+          103
+        ],
+        "pages": [
+          102,
+          103
+        ],
+        "mp3": "rv-d-24.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 13,
+    "unit": "Cycles",
+    "title": "The World's Greatest Traveler",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          110,
+          111
+        ],
+        "pages": [
+          110,
+          111
+        ],
+        "mp3": "rv-d-25.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          112,
+          113
+        ],
+        "pages": [
+          112,
+          113
+        ],
+        "mp3": "rv-d-26.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 14,
+    "unit": "Cycles",
+    "title": "What a Farmer Knows",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          118,
+          119
+        ],
+        "pages": [
+          118,
+          119
+        ],
+        "mp3": "rv-d-27.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          120,
+          121
+        ],
+        "pages": [
+          120,
+          121
+        ],
+        "mp3": "rv-d-28.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 15,
+    "unit": "Cycles",
+    "title": "As the Earth Moves",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          126,
+          127
+        ],
+        "pages": [
+          126,
+          127
+        ],
+        "mp3": "rv-d-29.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          128,
+          129
+        ],
+        "pages": [
+          128,
+          129
+        ],
+        "mp3": "rv-d-30.mp3"
+      }
+    ]
+  }
+]
