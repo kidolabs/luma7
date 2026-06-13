@@ -1,0 +1,8 @@
+# build inputs / scratch (not part of the published site)
+_incoming/
+_verify/
+_build/*.png
+_build/*_toc_*.png
+.DS_Store
+*.pyc
+__pycache__/

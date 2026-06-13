@@ -1,0 +1,422 @@
+{
+  "1": {
+    "start": 6,
+    "reading_pages": [
+      8,
+      9
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 8,
+        "first_body_text": "Read the story below. Have you ever thought about your future? What kind of job do you want?",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 9,
+        "first_body_text": "The look and feel of a building is just as important as its function. Think of a large office building.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 10,
+        "first_body_text": "Complete each sentence with a word from the box. I need a good architect to new home.",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "2": {
+    "start": 14,
+    "reading_pages": [
+      16,
+      17
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 16,
+        "first_body_text": "Read the story below. Man-made structures have many uses. We store our",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 17,
+        "first_body_text": "carved a whole city out of a mountain. There were churches, apartments, stores",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 18,
+        "first_body_text": "Write the word next to its meaning.",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "3": {
+    "start": 22,
+    "reading_pages": [
+      24,
+      25
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 24,
+        "first_body_text": "Read the story below. Anna Lloyd Jones had big dreams for her son.",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 25,
+        "first_body_text": "toilets in each of his homes. Earlier architects only designed the outside of the house.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 26,
+        "first_body_text": "Complete each sentence with a word from the box. 1. The __________ outside",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "4": {
+    "start": 32,
+    "reading_pages": [
+      34,
+      35
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 34,
+        "first_body_text": "Read the story below. The Human Machine Did you watch the 2008 Olympics in Beijing? Athletes amazed us with their skills",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 35,
+        "first_body_text": "A runner will run every day. A swimmer will swim every day. An athlete needs to practice hard and often",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 36,
+        "first_body_text": "Write the word next to its meaning.",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "5": {
+    "start": 40,
+    "reading_pages": [
+      42,
+      43
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": "42",
+        "first_body_text": "Read the story below. The Ancient Olympics The Olympics are the world's greatest",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": "43",
+        "first_body_text": "person to give up was the loser. Two: If an athlete",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": "44",
+        "first_body_text": "Complete each sentence with a word from the box. 1.",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "6": {
+    "start": 48,
+    "reading_pages": [
+      50,
+      51
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 50,
+        "first_body_text": "Read the story below. Do you watch baseball? If you do, you probably have a",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 51,
+        "first_body_text": "In Spain, the soccer games get so intense that fans can even die! When",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 52,
+        "first_body_text": "Write the word next to its meaning. 1. to help, hold up",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "7": {
+    "start": 58,
+    "reading_pages": [
+      60,
+      61
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 60,
+        "first_body_text": "Read the story below. Your Dog the Celebrity Dogs are great. They",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 61,
+        "first_body_text": "Only go to the bathroom outside. Come when you call its name.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 62,
+        "first_body_text": "Complete each sentence with a word from the box. treat reward loyal",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "8": {
+    "start": 66,
+    "reading_pages": [
+      68,
+      69
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 68,
+        "first_body_text": "Read the story below. People have kept animals for thousands of years. They have",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 69,
+        "first_body_text": "extra animals. Edith is a chimpanzee who was found in California. She was sold",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 70,
+        "first_body_text": "Write the word next to its meaning. 1. more than what is useful or needed",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "9": {
+    "start": 74,
+    "reading_pages": [
+      76,
+      77
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 76,
+        "first_body_text": "Read the story below. A Healthy Pet is a Happy Pet Doctors help sick and injured people.",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 77,
+        "first_body_text": "as people. They get vaccines to keep them from getting sick. They have surgery.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 78,
+        "first_body_text": "Complete each sentence with a word from the box. 1. You are lucky you weren't",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "10": {
+    "start": 84,
+    "reading_pages": [
+      86,
+      87
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 86,
+        "first_body_text": "Read the story below. In the modern world it's easy to travel.",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 87,
+        "first_body_text": "The Wright brothers flew the first airplane in 1903. It had wooden propellers",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 88,
+        "first_body_text": "Write the word next to its meaning.",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "11": {
+    "start": 92,
+    "reading_pages": [
+      94,
+      95
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 94,
+        "first_body_text": "Read the story below. A Quick Bite to Eat It’s quick, tasty, and cheap.",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 95,
+        "first_body_text": "one agrees on exactly who invented it, but most people think it was in the early",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 96,
+        "first_body_text": "Complete each sentence with a word from the box.",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "12": {
+    "start": 100,
+    "reading_pages": [
+      102,
+      103
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": "102",
+        "first_body_text": "Read the story below. A home is not just the house or apartment",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": "103",
+        "first_body_text": "Over the next 50,000 years they populated the rest of the world.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": "104",
+        "first_body_text": "Write the word next to its meaning. 1. to fill with animals",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "13": {
+    "start": 110,
+    "reading_pages": [
+      112,
+      113
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": "112",
+        "first_body_text": "Read the story below. The World's Greatest Traveler Every day millions of gallons of water flow into the oceans and lakes of the",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": "113",
+        "first_body_text": "droplets of water and carries them high into the sky. The droplets collect together in a step called condensation .",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": "114",
+        "first_body_text": "Complete each sentence with a word from the box. 1. The water is an amazing process. 2. I don't know",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "14": {
+    "start": 118,
+    "reading_pages": [
+      120,
+      121
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 120,
+        "first_body_text": "It may not seem so, but being a farmer is a lot like being a scientist.",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 121,
+        "first_body_text": "A farmer must also understand how the land changes over time.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 122,
+        "first_body_text": "Write the word next to its meaning.",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "15": {
+    "start": 126,
+    "reading_pages": [
+      128,
+      129
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 128,
+        "first_body_text": "Read the story below. Weather changes from day to day and month to",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 129,
+        "first_body_text": "Then there are ice ages. An ice age is a period of time",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 130,
+        "first_body_text": "Complete each sentence with a word from the box. 1. I cannot",
+        "type": "EXERCISE"
+      }
+    ]
+  }
+}

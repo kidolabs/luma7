@@ -1,0 +1,197 @@
+{
+  "letter": "b",
+  "pages": 134,
+  "qr_pages": [
+    6,
+    8,
+    14,
+    16,
+    22,
+    24,
+    32,
+    34,
+    40,
+    42,
+    48,
+    50,
+    58,
+    60,
+    68,
+    74,
+    76,
+    84,
+    86,
+    92,
+    94,
+    100,
+    102,
+    110,
+    112,
+    118,
+    120,
+    126,
+    128
+  ],
+  "n_qr": 29,
+  "n_lessons": 14,
+  "lessons": [
+    {
+      "lesson": 1,
+      "vocab_start": 6,
+      "reading_start": 8,
+      "wordlist_pages": [
+        6,
+        7
+      ]
+    },
+    {
+      "lesson": 2,
+      "vocab_start": 14,
+      "reading_start": 16,
+      "wordlist_pages": [
+        14,
+        15
+      ]
+    },
+    {
+      "lesson": 3,
+      "vocab_start": 22,
+      "reading_start": 24,
+      "wordlist_pages": [
+        22,
+        23
+      ]
+    },
+    {
+      "lesson": 4,
+      "vocab_start": 32,
+      "reading_start": 34,
+      "wordlist_pages": [
+        32,
+        33
+      ]
+    },
+    {
+      "lesson": 5,
+      "vocab_start": 40,
+      "reading_start": 42,
+      "wordlist_pages": [
+        40,
+        41
+      ]
+    },
+    {
+      "lesson": 6,
+      "vocab_start": 48,
+      "reading_start": 50,
+      "wordlist_pages": [
+        48,
+        49
+      ]
+    },
+    {
+      "lesson": 7,
+      "vocab_start": 58,
+      "reading_start": 60,
+      "wordlist_pages": [
+        58,
+        59
+      ]
+    },
+    {
+      "lesson": 8,
+      "vocab_start": 68,
+      "reading_start": 74,
+      "wordlist_pages": [
+        68,
+        69,
+        70,
+        71,
+        72,
+        73
+      ]
+    },
+    {
+      "lesson": 9,
+      "vocab_start": 76,
+      "reading_start": 84,
+      "wordlist_pages": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ]
+    },
+    {
+      "lesson": 10,
+      "vocab_start": 86,
+      "reading_start": 92,
+      "wordlist_pages": [
+        86,
+        87,
+        88,
+        89,
+        90,
+        91
+      ]
+    },
+    {
+      "lesson": 11,
+      "vocab_start": 94,
+      "reading_start": 100,
+      "wordlist_pages": [
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "lesson": 12,
+      "vocab_start": 102,
+      "reading_start": 110,
+      "wordlist_pages": [
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109
+      ]
+    },
+    {
+      "lesson": 13,
+      "vocab_start": 112,
+      "reading_start": 118,
+      "wordlist_pages": [
+        112,
+        113,
+        114,
+        115,
+        116,
+        117
+      ]
+    },
+    {
+      "lesson": 14,
+      "vocab_start": 120,
+      "reading_start": 126,
+      "wordlist_pages": [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125
+      ]
+    }
+  ]
+}

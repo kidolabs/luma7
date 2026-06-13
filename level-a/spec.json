@@ -1,0 +1,436 @@
+[
+  {
+    "lesson": 1,
+    "unit": "Plants",
+    "title": "We Eat Flowers!",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          6,
+          7
+        ],
+        "pages": [
+          6,
+          7
+        ],
+        "mp3": "rv-a-01.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          8,
+          9
+        ],
+        "pages": [
+          8,
+          9
+        ],
+        "mp3": "rv-a-02.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 2,
+    "unit": "Plants",
+    "title": "Not Just for Food",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          14,
+          15
+        ],
+        "pages": [
+          14,
+          15
+        ],
+        "mp3": "rv-a-03.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          16,
+          17
+        ],
+        "pages": [
+          16,
+          18
+        ],
+        "mp3": "rv-a-04.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 3,
+    "unit": "Animals",
+    "title": "Keeping Warm",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          24,
+          25
+        ],
+        "pages": [
+          24,
+          25
+        ],
+        "mp3": "rv-a-05.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          26,
+          27
+        ],
+        "pages": [
+          26,
+          27
+        ],
+        "mp3": "rv-a-06.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 4,
+    "unit": "Animals",
+    "title": "Animals Help People",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          32,
+          33
+        ],
+        "pages": [
+          32,
+          33
+        ],
+        "mp3": "rv-a-07.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          34,
+          35
+        ],
+        "pages": [
+          34,
+          35
+        ],
+        "mp3": "rv-a-08.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 5,
+    "unit": "People",
+    "title": "Your Senses",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          42,
+          43
+        ],
+        "pages": [
+          42,
+          43
+        ],
+        "mp3": "rv-a-09.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          44,
+          45
+        ],
+        "pages": [
+          44,
+          45
+        ],
+        "mp3": "rv-a-10.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 6,
+    "unit": "People",
+    "title": "All Grown Up",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          50,
+          51
+        ],
+        "pages": [
+          50,
+          51
+        ],
+        "mp3": "rv-a-11.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          52,
+          53
+        ],
+        "pages": [
+          52,
+          53
+        ],
+        "mp3": "rv-a-12.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 7,
+    "unit": "Life",
+    "title": "How Old is that Tree?",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          60,
+          61
+        ],
+        "pages": [
+          60,
+          61
+        ],
+        "mp3": "rv-a-13.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          62,
+          63
+        ],
+        "pages": [
+          62,
+          63
+        ],
+        "mp3": "rv-a-14.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 8,
+    "unit": "Life",
+    "title": "Save the Forests",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          68,
+          69
+        ],
+        "pages": [
+          68,
+          69
+        ],
+        "mp3": "rv-a-15.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          70,
+          71
+        ],
+        "pages": [
+          70,
+          71
+        ],
+        "mp3": "rv-a-16.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 9,
+    "unit": "Weather",
+    "title": "The Seasons",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          78,
+          79
+        ],
+        "pages": [
+          78,
+          79
+        ],
+        "mp3": "rv-a-17.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          80,
+          81
+        ],
+        "pages": [
+          80,
+          81
+        ],
+        "mp3": "rv-a-18.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 10,
+    "unit": "Weather",
+    "title": "Bad Weather",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          86,
+          87
+        ],
+        "pages": [
+          86,
+          87
+        ],
+        "mp3": "rv-a-19.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          88,
+          89
+        ],
+        "pages": [
+          88,
+          89
+        ],
+        "mp3": "rv-a-20.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 11,
+    "unit": "Soil",
+    "title": "Dirt is Good!",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          96,
+          97
+        ],
+        "pages": [
+          96,
+          97
+        ],
+        "mp3": "rv-a-21.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          98,
+          99
+        ],
+        "pages": [
+          98,
+          99
+        ],
+        "mp3": "rv-a-22.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 12,
+    "unit": "Soil",
+    "title": "Soil Homes",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          104,
+          105
+        ],
+        "pages": [
+          104,
+          105
+        ],
+        "mp3": "rv-a-23.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          106,
+          107
+        ],
+        "pages": [
+          106,
+          107
+        ],
+        "mp3": "rv-a-24.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 13,
+    "unit": "Energy",
+    "title": "Energy",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          114,
+          115
+        ],
+        "pages": [
+          114,
+          115
+        ],
+        "mp3": "rv-a-25.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          116,
+          117
+        ],
+        "pages": [
+          116,
+          117
+        ],
+        "mp3": "rv-a-26.mp3"
+      }
+    ]
+  },
+  {
+    "lesson": 14,
+    "unit": "Energy",
+    "title": "Electricity",
+    "items": [
+      {
+        "type": "Vocabulary",
+        "printed": [
+          122,
+          123
+        ],
+        "pages": [
+          122,
+          123
+        ],
+        "mp3": "rv-a-27.mp3"
+      },
+      {
+        "type": "Reading",
+        "printed": [
+          124,
+          125
+        ],
+        "pages": [
+          124,
+          125
+        ],
+        "mp3": "rv-a-28.mp3"
+      }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reading for Vocabulary — Level A</title>
+<style>
+  :root{--accent:#1f6fb2;--bg:#f4f6f8;--card:#fff;--bar:#1e2a3a;--red:#ef4444}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth;scroll-padding-top:64px}
+  body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:#222}
+  header.top{position:sticky;top:0;z-index:30;background:#fff;border-bottom:2px solid var(--accent);box-shadow:0 2px 6px rgba(0,0,0,.08)}
+  header.top.hidden{display:none}
+  .bar{display:flex;align-items:center;gap:12px;padding:10px 14px}
+  .burger{border:none;background:var(--accent);color:#fff;width:40px;height:40px;border-radius:10px;font-size:19px;cursor:pointer;flex:none}
+  .htxt{min-width:0}
+  .htxt .bk{font-size:12px;color:#7c8a99;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .htxt .cur{font-size:17px;font-weight:800;color:var(--accent);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .menu{display:none;border-top:1px solid #eef1f4;max-height:60vh;overflow:auto;background:#fff;padding:6px}
+  .menu.open{display:block}
+  .menu a{display:block;padding:11px 14px;border-radius:8px;text-decoration:none;color:#243;font-weight:600;font-size:15px}
+  .menu a:hover,.menu a.active{background:var(--accent);color:#fff}
+  #barToggle{position:fixed;top:8px;right:10px;z-index:40;border:none;background:var(--accent);color:#fff;width:32px;height:32px;border-radius:50%;font-size:14px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.25);opacity:.85}
+  main{max-width:900px;margin:0 auto;padding:18px 14px 140px}
+  .unit{margin-bottom:40px}
+  .unit-h{font-size:22px;color:var(--accent);background:#eaf2fa;border-radius:10px;padding:12px 16px;margin:0 0 16px}
+  .unit-h .unum{display:inline-block;font-size:13px;font-weight:800;letter-spacing:.08em;background:var(--accent);color:#fff;padding:2px 10px;border-radius:8px;margin-right:10px;vertical-align:middle}
+  .lesson{margin:0 0 24px}
+  .lesson h3{font-size:18px;border-left:5px solid var(--accent);padding:5px 0 5px 12px;margin:0 0 12px}
+  .block{background:var(--card);border-radius:12px;padding:14px;margin:12px 0;box-shadow:0 1px 4px rgba(0,0,0,.07)}
+  .btag{display:inline-block;font-size:12px;font-weight:700;color:#fff;background:var(--accent);padding:3px 12px;border-radius:10px;margin-bottom:10px}
+  button.nghe{display:inline-flex;align-items:center;gap:8px;font-size:15px;font-weight:700;color:#fff;background:var(--accent);border:none;border-radius:10px;padding:10px 18px;margin-bottom:12px;cursor:pointer}
+  button.nghe:hover{filter:brightness(1.08)}
+  button.nghe.playing{background:var(--red)}
+  .imgs img{width:100%;height:auto;display:block;border-radius:8px;margin:8px 0;border:1px solid #e6ebf0}
+  /* bottom player */
+  #player{position:fixed;left:0;right:0;bottom:0;z-index:35;background:var(--bar);color:#fff;display:none;
+    padding:10px 16px;border-top:3px solid var(--red);box-shadow:0 -2px 12px rgba(0,0,0,.3)}
+  #player.show{display:block}
+  #player .ptop{display:flex;align-items:center;gap:14px}
+  #player .pinfo{flex:1;min-width:0}
+  #player .punit{color:var(--red);font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  #player .ptitle{font-size:16px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  #player .pctrl{display:flex;align-items:center;gap:16px;flex:none}
+  #player .pctrl button{background:none;border:none;color:#fff;font-size:20px;cursor:pointer;line-height:1}
+  #player .pplay{width:48px;height:48px;border-radius:50%;background:var(--red)!important;font-size:21px;display:flex;align-items:center;justify-content:center}
+  #player .pright{display:flex;align-items:center;gap:8px;flex:none}
+  #player .pright button{background:#33425a;border:none;color:#fff;border-radius:8px;padding:7px 11px;font-size:13px;cursor:pointer}
+  #player .pseek{display:flex;align-items:center;gap:10px;font-size:12px;color:#aebacb;margin-top:8px}
+  #player .pseek input{flex:1;accent-color:var(--red)}
+  @media(max-width:820px){
+    #player .ptop{flex-wrap:wrap}
+    #player .pinfo{flex:1 0 100%;order:-1;margin-bottom:6px}
+    #player .ptitle{font-size:17px;white-space:normal}
+    #player .pctrl{flex:1;justify-content:center}
+  }
+</style></head>
+<body>
+<button id="barToggle" title="Hide/show top bar">▲</button>
+<header class="top">
+  <div class="bar">
+    <button id="menuBtn" class="burger" title="Menu">☰</button>
+    <div class="htxt"><div class="bk"><a href="../index.html" style="color:inherit;text-decoration:none">← Reading for Vocabulary — Level A</a></div>
+      <div class="cur" id="curUnit"></div></div>
+  </div>
+  <nav id="menu" class="menu"><a href="#unit-1">Unit 1 · Plants</a><a href="#unit-2">Unit 2 · Animals</a><a href="#unit-3">Unit 3 · People</a><a href="#unit-4">Unit 4 · Life</a><a href="#unit-5">Unit 5 · Weather</a><a href="#unit-6">Unit 6 · Soil</a><a href="#unit-7">Unit 7 · Energy</a></nav>
+</header>
+<main><section id="unit-1" class="unit" data-unit="Unit 1 · Plants"><h2 class="unit-h"><span class="unum">UNIT 1</span>Plants</h2><div class="lesson"><h3>Lesson 1 — We Eat Flowers!</h3><div class="block"><div class="btag">Vocabulary</div><button class="nghe" data-src="audio/rv-a-01.mp3" data-unit="Unit 1 · Plants" data-title="Lesson 1 · We Eat Flowers! — Vocabulary">▶ Listen — Vocabulary</button><div class="imgs"><img loading="lazy" src="pages/p006.jpg" alt="page 6"><img loading="lazy" src="pages/p007.jpg" alt="page 7"></div></div><div class="block"><div class="btag">Reading</div><button class="nghe" data-src="audio/rv-a-02.mp3" data-unit="Unit 1 · Plants" data-title="Lesson 1 · We Eat Flowers! — Reading">▶ Listen — Reading</button><div class="imgs"><img loading="lazy" src="pages/p008.jpg" alt="page 8"><img loading="lazy" src="pages/p009.jpg" alt="page 9"></div></div></div><div class="lesson"><h3>Lesson 2 — Not Just for Food</h3><div class="block"><div class="btag">Vocabulary</div><button class="nghe" data-src="audio/rv-a-03.mp3" data-unit="Unit 1 · Plants" data-title="Lesson 2 · Not Just for Food — Vocabulary">▶ Listen — Vocabulary</button><div class="imgs"><img loading="lazy" src="pages/p014.jpg" alt="page 14"><img loading="lazy" src="pages/p015.jpg" alt="page 15"></div></div><div class="block"><div class="btag">Reading</div><button class="nghe" data-src="audio/rv-a-04.mp3" data-unit="Unit 1 · Plants" data-title="Lesson 2 · Not Just for Food — Reading">▶ Listen — Reading</button><div class="imgs"><img loading="lazy" src="pages/p016.jpg" alt="page 16"><img loading="lazy" src="pages/p018.jpg" alt="page 18"></div></div></div></section><section id="unit-2" class="unit" data-unit="Unit 2 · Animals"><h2 class="unit-h"><span class="unum">UNIT 2</span>Animals</h2><div class="lesson"><h3>Lesson 3 — Keeping Warm</h3><div class="block"><div class="btag">Vocabulary</div><button class="nghe" data-src="audio/rv-a-05.mp3" data-unit="Unit 2 · Animals" data-title="Lesson 3 · Keeping Warm — Vocabulary">▶ Listen — Vocabulary</button><div class="imgs"><img loading="lazy" src="pages/p024.jpg" alt="page 24"><img loading="lazy" src="pages/p025.jpg" alt="page 25"></div></div><div class="block"><div class="btag">Reading</div><button class="nghe" data-src="audio/rv-a-06.mp3" data-unit="Unit 2 · Animals" data-title="Lesson 3 · Keeping Warm — Reading">▶ Listen — Reading</button><div class="imgs"><img loading="lazy" src="pages/p026.jpg" alt="page 26"><img loading="lazy" src="pages/p027.jpg" alt="page 27"></div></div></div><div class="lesson"><h3>Lesson 4 — Animals Help People</h3><div class="block"><div class="btag">Vocabulary</div><button class="nghe" data-src="audio/rv-a-07.mp3" data-unit="Unit 2 · Animals" data-title="Lesson 4 · Animals Help People — Vocabulary">▶ Listen — Vocabulary</button><div class="imgs"><img loading="lazy" src="pages/p032.jpg" alt="page 32"><img loading="lazy" src="pages/p033.jpg" alt="page 33"></div></div><div class="block"><div class="btag">Reading</div><button class="nghe" data-src="audio/rv-a-08.mp3" data-unit="Unit 2 · Animals" data-title="Lesson 4 · Animals Help People — Reading">▶ Listen — Reading</button><div class="imgs"><img loading="lazy" src="pages/p034.jpg" alt="page 34"><img loading="lazy" src="pages/p035.jpg" alt="page 35"></div></div></div></section><section id="unit-3" class="unit" data-unit="Unit 3 · People"><h2 class="unit-h"><span class="unum">UNIT 3</span>People</h2><div class="lesson"><h3>Lesson 5 — Your Senses</h3><div class="block"><div class="btag">Vocabulary</div><button class="nghe" data-src="audio/rv-a-09.mp3" data-unit="Unit 3 · People" data-title="Lesson 5 · Your Senses — Vocabulary">▶ Listen — Vocabulary</button><div class="imgs"><img loading="lazy" src="pages/p042.jpg" alt="page 42"><img loading="lazy" src="pages/p043.jpg" alt="page 43"></div></div><div class="block"><div class="btag">Reading</div><button class="nghe" data-src="audio/rv-a-10.mp3" data-unit="Unit 3 · People" data-title="Lesson 5 · Your Senses — Reading">▶ Listen — Reading</button><div class="imgs"><img loading="lazy" src="pages/p044.jpg" alt="page 44"><img loading="lazy" src="pages/p045.jpg" alt="page 45"></div></div></div><div class="lesson"><h3>Lesson 6 — All Grown Up</h3><div class="block"><div class="btag">Vocabulary</div><button class="nghe" data-src="audio/rv-a-11.mp3" data-unit="Unit 3 · People" data-title="Lesson 6 · All Grown Up — Vocabulary">▶ Listen — Vocabulary</button><div class="imgs"><img loading="lazy" src="pages/p050.jpg" alt="page 50"><img loading="lazy" src="pages/p051.jpg" alt="page 51"></div></div><div class="block"><div class="btag">Reading</div><button class="nghe" data-src="audio/rv-a-12.mp3" data-unit="Unit 3 · People" data-title="Lesson 6 · All Grown Up — Reading">▶ Listen — Reading</button><div class="imgs"><img loading="lazy" src="pages/p052.jpg" alt="page 52"><img loading="lazy" src="pages/p053.jpg" alt="page 53"></div></div></div></section><section id="unit-4" class="unit" data-unit="Unit 4 · Life"><h2 class="unit-h"><span class="unum">UNIT 4</span>Life</h2><div class="lesson"><h3>Lesson 7 — How Old is that Tree?</h3><div class="block"><div class="btag">Vocabulary</div><button class="nghe" data-src="audio/rv-a-13.mp3" data-unit="Unit 4 · Life" data-title="Lesson 7 · How Old is that Tree? — Vocabulary">▶ Listen — Vocabulary</button><div class="imgs"><img loading="lazy" src="pages/p060.jpg" alt="page 60"><img loading="lazy" src="pages/p061.jpg" alt="page 61"></div></div><div class="block"><div class="btag">Reading</div><button class="nghe" data-src="audio/rv-a-14.mp3" data-unit="Unit 4 · Life" data-title="Lesson 7 · How Old is that Tree? — Reading">▶ Listen — Reading</button><div class="imgs"><img loading="lazy" src="pages/p062.jpg" alt="page 62"><img loading="lazy" src="pages/p063.jpg" alt="page 63"></div></div></div><div class="lesson"><h3>Lesson 8 — Save the Forests</h3><div class="block"><div class="btag">Vocabulary</div><button class="nghe" data-src="audio/rv-a-15.mp3" data-unit="Unit 4 · Life" data-title="Lesson 8 · Save the Forests — Vocabulary">▶ Listen — Vocabulary</button><div class="imgs"><img loading="lazy" src="pages/p068.jpg" alt="page 68"><img loading="lazy" src="pages/p069.jpg" alt="page 69"></div></div><div class="block"><div class="btag">Reading</div><button class="nghe" data-src="audio/rv-a-16.mp3" data-unit="Unit 4 · Life" data-title="Lesson 8 · Save the Forests — Reading">▶ Listen — Reading</button><div class="imgs"><img loading="lazy" src="pages/p070.jpg" alt="page 70"><img loading="lazy" src="pages/p071.jpg" alt="page 71"></div></div></div></section><section id="unit-5" class="unit" data-unit="Unit 5 · Weather"><h2 class="unit-h"><span class="unum">UNIT 5</span>Weather</h2><div class="lesson"><h3>Lesson 9 — The Seasons</h3><div class="block"><div class="btag">Vocabulary</div><button class="nghe" data-src="audio/rv-a-17.mp3" data-unit="Unit 5 · Weather" data-title="Lesson 9 · The Seasons — Vocabulary">▶ Listen — Vocabulary</button><div class="imgs"><img loading="lazy" src="pages/p078.jpg" alt="page 78"><img loading="lazy" src="pages/p079.jpg" alt="page 79"></div></div><div class="block"><div class="btag">Reading</div><button class="nghe" data-src="audio/rv-a-18.mp3" data-unit="Unit 5 · Weather" data-title="Lesson 9 · The Seasons — Reading">▶ Listen — Reading</button><div class="imgs"><img loading="lazy" src="pages/p080.jpg" alt="page 80"><img loading="lazy" src="pages/p081.jpg" alt="page 81"></div></div></div><div class="lesson"><h3>Lesson 10 — Bad Weather</h3><div class="block"><div class="btag">Vocabulary</div><button class="nghe" data-src="audio/rv-a-19.mp3" data-unit="Unit 5 · Weather" data-title="Lesson 10 · Bad Weather — Vocabulary">▶ Listen — Vocabulary</button><div class="imgs"><img loading="lazy" src="pages/p086.jpg" alt="page 86"><img loading="lazy" src="pages/p087.jpg" alt="page 87"></div></div><div class="block"><div class="btag">Reading</div><button class="nghe" data-src="audio/rv-a-20.mp3" data-unit="Unit 5 · Weather" data-title="Lesson 10 · Bad Weather — Reading">▶ Listen — Reading</button><div class="imgs"><img loading="lazy" src="pages/p088.jpg" alt="page 88"><img loading="lazy" src="pages/p089.jpg" alt="page 89"></div></div></div></section><section id="unit-6" class="unit" data-unit="Unit 6 · Soil"><h2 class="unit-h"><span class="unum">UNIT 6</span>Soil</h2><div class="lesson"><h3>Lesson 11 — Dirt is Good!</h3><div class="block"><div class="btag">Vocabulary</div><button class="nghe" data-src="audio/rv-a-21.mp3" data-unit="Unit 6 · Soil" data-title="Lesson 11 · Dirt is Good! — Vocabulary">▶ Listen — Vocabulary</button><div class="imgs"><img loading="lazy" src="pages/p096.jpg" alt="page 96"><img loading="lazy" src="pages/p097.jpg" alt="page 97"></div></div><div class="block"><div class="btag">Reading</div><button class="nghe" data-src="audio/rv-a-22.mp3" data-unit="Unit 6 · Soil" data-title="Lesson 11 · Dirt is Good! — Reading">▶ Listen — Reading</button><div class="imgs"><img loading="lazy" src="pages/p098.jpg" alt="page 98"><img loading="lazy" src="pages/p099.jpg" alt="page 99"></div></div></div><div class="lesson"><h3>Lesson 12 — Soil Homes</h3><div class="block"><div class="btag">Vocabulary</div><button class="nghe" data-src="audio/rv-a-23.mp3" data-unit="Unit 6 · Soil" data-title="Lesson 12 · Soil Homes — Vocabulary">▶ Listen — Vocabulary</button><div class="imgs"><img loading="lazy" src="pages/p104.jpg" alt="page 104"><img loading="lazy" src="pages/p105.jpg" alt="page 105"></div></div><div class="block"><div class="btag">Reading</div><button class="nghe" data-src="audio/rv-a-24.mp3" data-unit="Unit 6 · Soil" data-title="Lesson 12 · Soil Homes — Reading">▶ Listen — Reading</button><div class="imgs"><img loading="lazy" src="pages/p106.jpg" alt="page 106"><img loading="lazy" src="pages/p107.jpg" alt="page 107"></div></div></div></section><section id="unit-7" class="unit" data-unit="Unit 7 · Energy"><h2 class="unit-h"><span class="unum">UNIT 7</span>Energy</h2><div class="lesson"><h3>Lesson 13 — Energy</h3><div class="block"><div class="btag">Vocabulary</div><button class="nghe" data-src="audio/rv-a-25.mp3" data-unit="Unit 7 · Energy" data-title="Lesson 13 · Energy — Vocabulary">▶ Listen — Vocabulary</button><div class="imgs"><img loading="lazy" src="pages/p114.jpg" alt="page 114"><img loading="lazy" src="pages/p115.jpg" alt="page 115"></div></div><div class="block"><div class="btag">Reading</div><button class="nghe" data-src="audio/rv-a-26.mp3" data-unit="Unit 7 · Energy" data-title="Lesson 13 · Energy — Reading">▶ Listen — Reading</button><div class="imgs"><img loading="lazy" src="pages/p116.jpg" alt="page 116"><img loading="lazy" src="pages/p117.jpg" alt="page 117"></div></div></div><div class="lesson"><h3>Lesson 14 — Electricity</h3><div class="block"><div class="btag">Vocabulary</div><button class="nghe" data-src="audio/rv-a-27.mp3" data-unit="Unit 7 · Energy" data-title="Lesson 14 · Electricity — Vocabulary">▶ Listen — Vocabulary</button><div class="imgs"><img loading="lazy" src="pages/p122.jpg" alt="page 122"><img loading="lazy" src="pages/p123.jpg" alt="page 123"></div></div><div class="block"><div class="btag">Reading</div><button class="nghe" data-src="audio/rv-a-28.mp3" data-unit="Unit 7 · Energy" data-title="Lesson 14 · Electricity — Reading">▶ Listen — Reading</button><div class="imgs"><img loading="lazy" src="pages/p124.jpg" alt="page 124"><img loading="lazy" src="pages/p125.jpg" alt="page 125"></div></div></div></section></main>
+<div id="player">
+  <div class="ptop">
+    <div class="pinfo"><div class="punit"></div><div class="ptitle"></div></div>
+    <div class="pctrl"><button class="pprev" title="Previous">⏮</button>
+      <button class="pplay" title="Play/Pause">▶</button>
+      <button class="pnext" title="Next">⏭</button></div>
+    <div class="pright"><button class="pspeed">1x</button>
+      <button class="plist" title="Go to current">☰</button>
+      <button class="pclose" title="Close">✕</button></div>
+  </div>
+  <div class="pseek"><span class="cur2">0:00</span><input type="range" min="0" max="100" value="0"><span class="rem">0:00</span></div>
+</div>
+<script>
+  var au=new Audio(), btns=[].slice.call(document.querySelectorAll('button.nghe')),
+      P=document.getElementById('player'), cur=-1, speeds=[1,1.25,1.5,0.75], si=0;
+  var elPlay=P.querySelector('.pplay'),elUnit=P.querySelector('.punit'),elTitle=P.querySelector('.ptitle'),
+      elCur=P.querySelector('.cur2'),elRem=P.querySelector('.rem'),elSeek=P.querySelector('.pseek input'),
+      elSpeed=P.querySelector('.pspeed');
+  function fmt(t){t=Math.max(0,t|0);return (t/60|0)+':'+('0'+(t%60)).slice(-2);}
+  function mark(){btns.forEach(function(b,i){b.classList.toggle('playing',i===cur&&!au.paused);});
+    elPlay.textContent=au.paused?'▶':'⏸';}
+  function load(i){if(i<0||i>=btns.length)return;cur=i;var b=btns[i];
+    au.src=b.dataset.src;au.playbackRate=speeds[si];
+    elUnit.textContent=b.dataset.unit;elTitle.textContent=b.dataset.title;
+    P.classList.add('show');au.play();}
+  btns.forEach(function(b,i){b.addEventListener('click',function(){i===cur?(au.paused?au.play():au.pause()):load(i);});});
+  elPlay.onclick=function(){au.paused?au.play():au.pause();};
+  P.querySelector('.pprev').onclick=function(){load(cur-1);};
+  P.querySelector('.pnext').onclick=function(){load(cur+1);};
+  P.querySelector('.pclose').onclick=function(){au.pause();P.classList.remove('show');cur=-1;mark();};
+  elSpeed.onclick=function(){si=(si+1)%speeds.length;au.playbackRate=speeds[si];elSpeed.textContent=speeds[si]+'x';};
+  P.querySelector('.plist').onclick=function(){if(cur>=0)btns[cur].scrollIntoView({block:'center'});};
+  au.addEventListener('play',mark);au.addEventListener('pause',mark);
+  au.addEventListener('ended',function(){if(cur+1<btns.length)load(cur+1);else mark();});
+  au.addEventListener('timeupdate',function(){if(au.duration){elSeek.value=au.currentTime/au.duration*100;
+    elCur.textContent=fmt(au.currentTime);elRem.textContent='-'+fmt(au.duration-au.currentTime);}});
+  elSeek.addEventListener('input',function(){if(au.duration)au.currentTime=elSeek.value/100*au.duration;});
+  // hamburger menu
+  var mb=document.getElementById('menuBtn'), menu=document.getElementById('menu');
+  mb.onclick=function(){menu.classList.toggle('open');};
+  menu.querySelectorAll('a').forEach(function(a){a.onclick=function(){menu.classList.remove('open');};});
+  // current-unit indicator (topmost unit in view) + active menu item
+  var curEl=document.getElementById('curUnit'), mlinks=[].slice.call(menu.querySelectorAll('a')),
+      sections=[].slice.call(document.querySelectorAll('section.unit'));
+  function onScroll(){var y=80,best=sections[0];
+    for(var i=0;i<sections.length;i++){if(sections[i].getBoundingClientRect().top<=y)best=sections[i];}
+    if(best){curEl.textContent=best.dataset.unit;
+      var id=best.id;mlinks.forEach(function(a){a.classList.toggle('active',a.getAttribute('href')==='#'+id);});}}
+  window.addEventListener('scroll',onScroll,{passive:true});window.addEventListener('load',onScroll);onScroll();
+  // show/hide top bar
+  var hdr=document.querySelector('header.top'),tg=document.getElementById('barToggle');
+  function pad(){document.documentElement.style.scrollPaddingTop=
+    (hdr.classList.contains('hidden')?52:hdr.querySelector('.bar').offsetHeight+10)+'px';}
+  tg.onclick=function(){hdr.classList.toggle('hidden');
+    tg.textContent=hdr.classList.contains('hidden')?'▼':'▲';pad();};
+  window.addEventListener('resize',pad);window.addEventListener('load',pad);pad();
+</script>
+</body></html>

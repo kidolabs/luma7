@@ -1,0 +1,92 @@
+[
+  {
+    "lesson": 1,
+    "unit": "Architecture",
+    "title": "A Dream Job",
+    "start": 6
+  },
+  {
+    "lesson": 2,
+    "unit": "Architecture",
+    "title": "Amazing Architecture",
+    "start": 14
+  },
+  {
+    "lesson": 3,
+    "unit": "Architecture",
+    "title": "Frank Lloyd Wright",
+    "start": 22
+  },
+  {
+    "lesson": 4,
+    "unit": "Sports",
+    "title": "The Human Machine",
+    "start": 32
+  },
+  {
+    "lesson": 5,
+    "unit": "Sports",
+    "title": "The Ancient Olympics",
+    "start": 40
+  },
+  {
+    "lesson": 6,
+    "unit": "Sports",
+    "title": "Playing Favorites",
+    "start": 48
+  },
+  {
+    "lesson": 7,
+    "unit": "Caring for Animals",
+    "title": "Your Dog the Celebrity",
+    "start": 58
+  },
+  {
+    "lesson": 8,
+    "unit": "Caring for Animals",
+    "title": "Living with Animals",
+    "start": 66
+  },
+  {
+    "lesson": 9,
+    "unit": "Caring for Animals",
+    "title": "A Healthy Pet is a Happy Pet",
+    "start": 74
+  },
+  {
+    "lesson": 10,
+    "unit": "World Connections",
+    "title": "Going Places",
+    "start": 84
+  },
+  {
+    "lesson": 11,
+    "unit": "World Connections",
+    "title": "A Quick Bite to Eat",
+    "start": 92
+  },
+  {
+    "lesson": 12,
+    "unit": "World Connections",
+    "title": "Home Away from Home",
+    "start": 100
+  },
+  {
+    "lesson": 13,
+    "unit": "Cycles",
+    "title": "The World's Greatest Traveler",
+    "start": 110
+  },
+  {
+    "lesson": 14,
+    "unit": "Cycles",
+    "title": "What a Farmer Knows",
+    "start": 118
+  },
+  {
+    "lesson": 15,
+    "unit": "Cycles",
+    "title": "As the Earth Moves",
+    "start": 126
+  }
+]

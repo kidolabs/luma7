@@ -1,0 +1,422 @@
+{
+  "1": {
+    "start": 6,
+    "reading_pages": [
+      8,
+      9
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 8,
+        "first_body_text": "Many ocean creatures are hunters. They find and eat other fish. But none of them",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 9,
+        "first_body_text": "If a shark smells a fish, it knows which way to swim to find it.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 10,
+        "first_body_text": "Complete each sentence with a word from the box.",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "2": {
+    "start": 14,
+    "reading_pages": [
+      16,
+      17
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 16,
+        "first_body_text": "Imagine yourself on a ship. You are sailing the biggest ocean in the world. Clear",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 17,
+        "first_body_text": "Ferdinand Magellan was the first to sail across the Pacific. He also gave",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 18,
+        "first_body_text": "① Word Meanings Write the word next to its meaning. 1. a puzzle",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "3": {
+    "start": 22,
+    "reading_pages": [
+      24,
+      25
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 24,
+        "first_body_text": "Read the story below. Do you know what pollution is? Pollution makes the Earth dirty.",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 25,
+        "first_body_text": "Water is something we use every day. We need it to cook, clean, and live.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 26,
+        "first_body_text": "Complete each sentence with a word from the box. 1. _________ fill the air with",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "4": {
+    "start": 32,
+    "reading_pages": [
+      34,
+      35
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 34,
+        "first_body_text": "Read the story below. We’ve Struck Gold! Do you want to buy my rock?",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 35,
+        "first_body_text": "Have you ever seen a black and yellow rock? If you do, pick it",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 36,
+        "first_body_text": "Write the word next to its meaning. 1. something pretty you wear on your neck",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "5": {
+    "start": 40,
+    "reading_pages": [
+      42,
+      43
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": "42",
+        "first_body_text": "Read the story below. What do you do with the rocks you find? You probably throw",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": "43",
+        "first_body_text": "Hunters used rocks too. Long ago people hunted with bows and arrows. These arrows",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": "44",
+        "first_body_text": "Complete each sentence with a word from the box. 1. A ______________ is a rock",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "6": {
+    "start": 48,
+    "reading_pages": [
+      50,
+      51
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 50,
+        "first_body_text": "Read the story below. Some artists don't use paint. They use rocks to make art. They shape",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 51,
+        "first_body_text": "Gutzon Borglum is the artist that made Mount Rushmore. It wasn’t easy.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 52,
+        "first_body_text": "Complete each sentence with a word from the box. 1. I dropped my phone.",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "7": {
+    "start": 58,
+    "reading_pages": [
+      60,
+      61
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 60,
+        "first_body_text": "As a child, Sally Ride wanted to be an astronaut. It was her dream to fly through space.",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 61,
+        "first_body_text": "It’s not easy to be an astronaut. Sally knew it would be hard work. She had many weeks of training.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 62,
+        "first_body_text": "Use words from the box to answer each riddle. 1. I fly through space.",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "8": {
+    "start": 66,
+    "reading_pages": [
+      68,
+      69
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 68,
+        "first_body_text": "Do you know what an eclipse is? It’s when the moon blocks the sun.",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 69,
+        "first_body_text": "disappearing. Some said a hungry demon in the sky was eating the sun. Imagine that was true!",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 70,
+        "first_body_text": "① Word Meanings Write the word next to its meaning.",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "9": {
+    "start": 74,
+    "reading_pages": [
+      76,
+      77
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 76,
+        "first_body_text": "Read the story below. How Much Do You Weigh? Do you know someone trying to lose weight?",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 77,
+        "first_body_text": "How much we weigh is different on each planet. On some planets we weigh more.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 78,
+        "first_body_text": "Exercise 1 Complete each sentence with a word from the box.",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "10": {
+    "start": 84,
+    "reading_pages": [
+      86,
+      87
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 86,
+        "first_body_text": "Read the story below. Our bones help us stand and move. We can't see our bones",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 87,
+        "first_body_text": "Some bones are very big. The biggest and strongest bone is in your leg. Some bones",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 88,
+        "first_body_text": "Write the word next to its meaning. 1. to keep safe",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "11": {
+    "start": 92,
+    "reading_pages": [
+      94,
+      95
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 94,
+        "first_body_text": "Read the story below. Think of the tallest person you know. Does their head touch the ceiling? If not, then they are not as tall as Robert Wadlow was. He is the tallest man in history. Robert Wadlow was a normal sized baby. His parents could carry him around. But all that soon changed.",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 95,
+        "first_body_text": "Still, Robert did the same things as most boys his age. He collected stamps and liked taking pictures. He was also a boy scout for many years. Robert liked helping people. The clothes at the store were too small for Robert. His feet were 47cm long! Robert needed custom clothes and shoes. His clothes were made just for him. They were made to fit his big body. Robert was also too big for cars. His father made their car bigger. He moved the car seats to make room for Robert’s legs. Robert grew to be 272cm by age 22. He was a giant. His head touched the ceiling! Since Robert was so big, he ate a lot of food. He ate about four times as much as most people. Maybe that’s why he was 220kg.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 96,
+        "first_body_text": "Complete each sentence with a word from the box. Robert was as tall as a tree.",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "12": {
+    "start": 100,
+    "reading_pages": [
+      102,
+      103
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": "102",
+        "first_body_text": "Read the story below. How can we keep our bodies strong? It’s easier than you think.",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": "103",
+        "first_body_text": "Exercise is when we move and play. This keeps our bodies strong. Running and jumping",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": "104",
+        "first_body_text": "Write the word next to its meaning. 1. to sleep, take a break",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "13": {
+    "start": 110,
+    "reading_pages": [
+      112,
+      113
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 112,
+        "first_body_text": "Read the story below. Today, we turn on the light if it’s dark. But long ago it wasn’t that simple.",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 113,
+        "first_body_text": "Edison wanted to make a light bulb people could use at home. Light bulbs back then burned out too quickly.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 114,
+        "first_body_text": "Complete each sentence with a word from the box. 1. It is dark. We need to turn on the",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "14": {
+    "start": 118,
+    "reading_pages": [
+      120,
+      121
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 120,
+        "first_body_text": "Read the story below. A Dream Come True All his life, Martin Luther King, Jr.",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 121,
+        "first_body_text": "African Americans and whites had to live apart. Martin Luther King, Jr. was very upset because of this.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 122,
+        "first_body_text": "1 Word Meanings Write the word next to its meaning. 1. rules",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "15": {
+    "start": 126,
+    "reading_pages": [
+      128,
+      129
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 128,
+        "first_body_text": "Roberto Clemente loved to play baseball. As a kid, he played baseball in Puerto",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 129,
+        "first_body_text": "Roberto was also very kind. He liked helping others. He often visited sick children in hospitals.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 130,
+        "first_body_text": "Complete each sentence with a word from the box. understand hospitals crashed truth",
+        "type": "EXERCISE"
+      }
+    ]
+  }
+}

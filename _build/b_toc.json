@@ -1,0 +1,92 @@
+[
+  {
+    "lesson": 1,
+    "unit": "Environment",
+    "title": "Sharks",
+    "start": 6
+  },
+  {
+    "lesson": 2,
+    "unit": "Environment",
+    "title": "The Pacific Ocean",
+    "start": 14
+  },
+  {
+    "lesson": 3,
+    "unit": "Environment",
+    "title": "Pollution",
+    "start": 22
+  },
+  {
+    "lesson": 4,
+    "unit": "Rocks",
+    "title": "We've Struck Gold!",
+    "start": 32
+  },
+  {
+    "lesson": 5,
+    "unit": "Rocks",
+    "title": "Let's Use a Rock",
+    "start": 40
+  },
+  {
+    "lesson": 6,
+    "unit": "Rocks",
+    "title": "Mount Rushmore",
+    "start": 48
+  },
+  {
+    "lesson": 7,
+    "unit": "Space",
+    "title": "Let's Ride into Space",
+    "start": 58
+  },
+  {
+    "lesson": 8,
+    "unit": "Space",
+    "title": "Eclipse",
+    "start": 66
+  },
+  {
+    "lesson": 9,
+    "unit": "Space",
+    "title": "How Much Do You Weigh?",
+    "start": 74
+  },
+  {
+    "lesson": 10,
+    "unit": "Human Body",
+    "title": "Bones",
+    "start": 84
+  },
+  {
+    "lesson": 11,
+    "unit": "Human Body",
+    "title": "Wow! That's Tall!",
+    "start": 92
+  },
+  {
+    "lesson": 12,
+    "unit": "Human Body",
+    "title": "Staying Healthy",
+    "start": 100
+  },
+  {
+    "lesson": 13,
+    "unit": "Heroes",
+    "title": "Edison the Wizard",
+    "start": 110
+  },
+  {
+    "lesson": 14,
+    "unit": "Heroes",
+    "title": "A Dream Come True",
+    "start": 118
+  },
+  {
+    "lesson": 15,
+    "unit": "Heroes",
+    "title": "Great Player, Great Heart",
+    "start": 126
+  }
+]

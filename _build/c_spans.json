@@ -1,0 +1,422 @@
+{
+  "1": {
+    "start": 6,
+    "reading_pages": [
+      8,
+      9
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 8,
+        "first_body_text": "Read the story below. What was the Earth like 200 million years ago?",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 9,
+        "first_body_text": "These fossils can show us what dinosaurs looked like. A dinosaur skull tells us what their head looked like.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 10,
+        "first_body_text": "Complete each sentence with a word from the box. 1. Dinosaur bones were ____________ in the ground by being covered with mud.",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "2": {
+    "start": 14,
+    "reading_pages": [
+      16,
+      17
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 16,
+        "first_body_text": "Read the story below. Smart as a Chimp Guess what animal I'm thinking of? This",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 17,
+        "first_body_text": "do they do it? They use rocks. They hit the nut with a",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 18,
+        "first_body_text": "Write the word next to its meaning. 1. very smart 2. stomach 3. having lots",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "3": {
+    "start": 22,
+    "reading_pages": [
+      24,
+      25
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 24,
+        "first_body_text": "You ever needed help with math? The next time you need help, ask Ashiya the",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 25,
+        "first_body_text": "though. She could only see if things were dropped inside of them. The workers",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 26,
+        "first_body_text": "Complete each sentence with a word from the box. 1. He will",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "4": {
+    "start": 32,
+    "reading_pages": [
+      34,
+      35
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 34,
+        "first_body_text": "Read the story below. Volcanoes can be quiet for hundreds of years. Then suddenly, BOOM!",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 35,
+        "first_body_text": "Some volcanoes are active. This means they have erupted recently and will again soon.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 36,
+        "first_body_text": "Write the word next to its meaning. 1. not long ago 2. water",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "5": {
+    "start": 40,
+    "reading_pages": [
+      42,
+      43
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 42,
+        "first_body_text": "Read the story below. Imagine a far away land with snow and ice all year",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 43,
+        "first_body_text": "It may be hard to believe, but the Arctic is a popular place to visit.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 44,
+        "first_body_text": "Complete each sentence with a word from the box. 1. I got cold because",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "6": {
+    "start": 48,
+    "reading_pages": [
+      50,
+      51
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 50,
+        "first_body_text": "Read the story below. What do plants have to do with pollution? Aren't plants good for",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 51,
+        "first_body_text": "This is a big problem in urban areas where there are many people. Huge amounts of fossil fuels",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 52,
+        "first_body_text": "Write the word next to its meaning.",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "7": {
+    "start": 58,
+    "reading_pages": [
+      60,
+      61
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": "60",
+        "first_body_text": "Read the story below. What's that sound? That's an easy question. Maybe you hear a bell or the phone ringing.",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": "61",
+        "first_body_text": "vibrate too. Pluck the strings on a guitar. Do you see the strings moving? They're vibrating and making sounds.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": "62",
+        "first_body_text": "Complete each sentence with a word from the box. 1. People ran to the underground passage when they heard the fire",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "8": {
+    "start": 66,
+    "reading_pages": [
+      68,
+      69
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": "68",
+        "first_body_text": "Read the story below. Do you like to listen to music? Some people",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": "69",
+        "first_body_text": "clothes. Suddenly, many teenagers began dressing the same way. Schools were filled with",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": "70",
+        "first_body_text": "Write the word next to its meaning. 1. a stage in a process",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "9": {
+    "start": 74,
+    "reading_pages": [
+      76,
+      77
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 76,
+        "first_body_text": "Read the story below. A hundred musicians are dressed in black and white. As they take their seats, the audience quiets down.",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 77,
+        "first_body_text": "baton, the concert hall fills with music. The beautiful sounds float through the air. The New York Philharmonic is world famous.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 78,
+        "first_body_text": "Complete each sentence with a word from the box. 1. The pianist's first ___________ was held last year.",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "10": {
+    "start": 84,
+    "reading_pages": [
+      86,
+      87
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": "86",
+        "first_body_text": "Read the story below. Worker of the Year Who is the worker of the year?",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": "87",
+        "first_body_text": "Like most machines, robots are different shapes and sizes. Robots that build cars are very big and strong.",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": "88",
+        "first_body_text": "Complete each sentence with a word from the box. 1. The of this tall building is very rich.",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "11": {
+    "start": 92,
+    "reading_pages": [
+      94,
+      95
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 94,
+        "first_body_text": "Many people think of robots as modern machines, but they have been around for.",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 95,
+        "first_body_text": "of his chest were lilies. The king was very pleased. In the 1700's, robots",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 96,
+        "first_body_text": "Complete each sentence with a word from the box. The doctor removed the thorns",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "12": {
+    "start": 100,
+    "reading_pages": [
+      102,
+      103
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 102,
+        "first_body_text": "Read the story below. For many years now, robots have been the stars of movies.",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 103,
+        "first_body_text": "earth. Optimus Prime fights Megatron to save our planet. Who do you think wins?",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 104,
+        "first_body_text": "Complete each sentence with a word from the box. 1. Though she is little, she is a _______",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "13": {
+    "start": 110,
+    "reading_pages": [
+      112,
+      113
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 112,
+        "first_body_text": "Have you ever seen an old horror movie? Did the monsters in the movie",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 113,
+        "first_body_text": "tall T-Rex running after the actors. But the audience believed that there",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 114,
+        "first_body_text": "Complete each sentence with a word from the box. 1. The bad boys",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "14": {
+    "start": 118,
+    "reading_pages": [
+      120,
+      121
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 120,
+        "first_body_text": "Read the story below. It’s the year 1895. The lumberjacks are all very tired. They’ve been",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 121,
+        "first_body_text": "Paul Bunyan eats much more than the other men, too. We need a whole orchard of trees",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 122,
+        "first_body_text": "Write the word next to its meaning. 1. a place without people 2. a person",
+        "type": "EXERCISE"
+      }
+    ]
+  },
+  "15": {
+    "start": 126,
+    "reading_pages": [
+      128,
+      129
+    ],
+    "span": 2,
+    "detail": [
+      {
+        "seq": 1,
+        "footer_page": 128,
+        "first_body_text": "Read the story below. Have you ever heard of Cinderella? What about Donald Duck?",
+        "type": "READING"
+      },
+      {
+        "seq": 2,
+        "footer_page": 129,
+        "first_body_text": "part of the character's actions. Disney worked hard in his studio to make his first",
+        "type": "READING"
+      },
+      {
+        "seq": 3,
+        "footer_page": 130,
+        "first_body_text": "Complete each sentence with a word from the box. 1. The singer's new song was a",
+        "type": "EXERCISE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "lesson": 1,
+    "unit": "Amazing Animals",
+    "title": "In a Land before Time",
+    "start": 6
+  },
+  {
+    "lesson": 2,
+    "unit": "Amazing Animals",
+    "title": "Smart as a Chimp",
+    "start": 14
+  },
+  {
+    "lesson": 3,
+    "unit": "Amazing Animals",
+    "title": "What's after Seven?",
+    "start": 22
+  },
+  {
+    "lesson": 4,
+    "unit": "Dynamic Earth",
+    "title": "Fire under the Earth",
+    "start": 32
+  },
+  {
+    "lesson": 5,
+    "unit": "Dynamic Earth",
+    "title": "Never a Warm Day",
+    "start": 40
+  },
+  {
+    "lesson": 6,
+    "unit": "Dynamic Earth",
+    "title": "Fossil Fuels",
+    "start": 48
+  },
+  {
+    "lesson": 7,
+    "unit": "Sound",
+    "title": "Do You Hear That?",
+    "start": 58
+  },
+  {
+    "lesson": 8,
+    "unit": "Sound",
+    "title": "Too Cool",
+    "start": 66
+  },
+  {
+    "lesson": 9,
+    "unit": "Sound",
+    "title": "Bravo! Encore!",
+    "start": 74
+  },
+  {
+    "lesson": 10,
+    "unit": "Robots",
+    "title": "Worker of the Year",
+    "start": 84
+  },
+  {
+    "lesson": 11,
+    "unit": "Robots",
+    "title": "Early Robots",
+    "start": 92
+  },
+  {
+    "lesson": 12,
+    "unit": "Robots",
+    "title": "Robot Actors",
+    "start": 100
+  },
+  {
+    "lesson": 13,
+    "unit": "Imaginary Characters",
+    "title": "Computer Movies",
+    "start": 110
+  },
+  {
+    "lesson": 14,
+    "unit": "Imaginary Characters",
+    "title": "Mighty Paul Bunyan",
+    "start": 118
+  },
+  {
+    "lesson": 15,
+    "unit": "Imaginary Characters",
+    "title": "Along Came a Mouse",
+    "start": 126
+  }
+]
