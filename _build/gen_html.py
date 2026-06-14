@@ -64,7 +64,7 @@ CSS = """
   .menu.open{display:block}
   .menu a{display:block;padding:11px 14px;border-radius:8px;text-decoration:none;color:#243;font-weight:600;font-size:15px}
   .menu a:hover,.menu a.active{background:var(--accent);color:#fff}
-  #barToggle{position:fixed;top:8px;right:10px;z-index:40;border:none;background:var(--accent);color:#fff;width:32px;height:32px;border-radius:50%;font-size:14px;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,.25);opacity:.85}
+  #barToggle{position:fixed;top:8px;right:10px;z-index:40;border:none;background:var(--accent);color:#fff;height:42px;padding:0 16px;border-radius:22px;font-size:15px;font-weight:700;cursor:pointer;box-shadow:0 3px 10px rgba(0,0,0,.32);display:inline-flex;align-items:center;gap:7px}
   main{max-width:900px;margin:0 auto;padding:18px 14px 140px}
   .unit{margin-bottom:40px}
   .unit-h{font-size:22px;color:var(--accent);background:#eaf2fa;border-radius:10px;padding:12px 16px;margin:0 0 16px}
@@ -84,7 +84,7 @@ CSS = """
   #imgzoom.show{display:block}
   #imgzoom .izwrap{position:absolute;inset:0;overflow:auto;-webkit-overflow-scrolling:touch;text-align:center}
   #imgzoom img{width:100vw;height:auto;display:inline-block;vertical-align:top;transition:width .15s ease}
-  #imgzoom .izbar{position:fixed;top:12px;right:12px;z-index:121;display:flex;gap:10px}
+  #imgzoom .izbar{position:absolute;top:12px;right:12px;z-index:121;display:flex;gap:10px}
   #imgzoom .izbar button{width:48px;height:48px;border:none;border-radius:50%;background:#fff;color:#222;font-size:24px;font-weight:800;line-height:1;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.45)}
   .block{background:var(--card);border-radius:12px;padding:14px;margin:12px 0;box-shadow:0 1px 4px rgba(0,0,0,.07)}
   .btag{display:inline-block;font-size:12px;font-weight:700;color:#fff;background:var(--accent);padding:3px 12px;border-radius:10px;margin-bottom:10px}
@@ -116,6 +116,7 @@ CSS = """
   #player .pright button{background:#33425a;border:none;color:#fff;border-radius:8px;padding:7px 11px;font-size:13px;cursor:pointer}
   #player.mini{left:auto;right:10px;bottom:10px;width:auto;border-radius:28px;padding:6px 8px}
   #player.mini .pinfo,#player.mini .pseek,#player.mini .pspeed,#player.mini .plist{display:none}
+  #player .pmin{font-size:14px;font-weight:800;padding:8px 14px}
   #player .pseek{display:flex;align-items:center;gap:10px;font-size:12px;color:#aebacb;margin-top:8px}
   #player .pseek input{flex:1;accent-color:var(--red)}
   @media(max-width:820px){
@@ -167,7 +168,7 @@ JS = """
   P.querySelector('.pprev').onclick=function(){load(cur-1);};
   P.querySelector('.pnext').onclick=function(){load(cur+1);};
   P.querySelector('.pclose').onclick=function(){au.pause();P.classList.remove('show');P.classList.remove('mini');cur=-1;mark();};
-  P.querySelector('.pmin').onclick=function(){P.classList.toggle('mini');this.textContent=P.classList.contains('mini')?'▴':'▾';};
+  P.querySelector('.pmin').onclick=function(){P.classList.toggle('mini');this.textContent=P.classList.contains('mini')?'▴ Full':'▾ Mini';};
   elSpeed.onclick=function(){si=(si+1)%speeds.length;au.playbackRate=speeds[si];elSpeed.textContent=speeds[si]+'x';};
   P.querySelector('.plist').onclick=function(){if(cur>=0)btns[cur].scrollIntoView({block:'center'});};
   au.addEventListener('play',mark);au.addEventListener('pause',mark);
@@ -198,7 +199,7 @@ JS = """
   function pad(){document.documentElement.style.scrollPaddingTop=
     (hdr.classList.contains('hidden')?52:hdr.querySelector('.bar').offsetHeight+10)+'px';}
   tg.onclick=function(){hdr.classList.toggle('hidden');
-    tg.textContent=hdr.classList.contains('hidden')?'▼':'▲';pad();};
+    tg.textContent=hdr.classList.contains('hidden')?'⌄ Show bar':'⌃ Hide bar';pad();};
   window.addEventListener('resize',pad);window.addEventListener('load',pad);pad();
   // youtube video modal
   var ytm=document.getElementById('ytmodal'),ytf=ytm.querySelector('.ytframe');
@@ -231,7 +232,7 @@ PLAYER = """<div id="player">
       <button class="pnext" title="Next">⏭</button></div>
     <div class="pright"><button class="pspeed">1x</button>
       <button class="plist" title="Go to current">☰</button>
-      <button class="pmin" title="Thu nhỏ">▾</button>
+      <button class="pmin" title="Thu nhỏ player">▾ Mini</button>
       <button class="pclose" title="Close">✕</button></div>
   </div>
   <div class="pseek"><span class="cur2">0:00</span><input type="range" min="0" max="100" value="0"><span class="rem">0:00</span></div>
@@ -246,7 +247,7 @@ doc = f"""<!doctype html>
 <div id="gate"><div class="gbox"><h2>🔒 Enter code</h2>
   <input id="gpin" type="password" inputmode="numeric" autocomplete="off" placeholder="••••••">
   <button id="gbtn">Enter</button><div class="gerr" id="gerr"></div></div></div>
-<button id="barToggle" title="Hide/show top bar">▲</button>
+<button id="barToggle" title="Hide/show top bar">⌃ Hide bar</button>
 <header class="top">
   <div class="bar">
     <button id="menuBtn" class="burger" title="Menu">☰</button>
