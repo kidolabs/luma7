@@ -71,7 +71,7 @@ CSS = """
   .unit-h .unum{display:inline-block;font-size:13px;font-weight:800;letter-spacing:.08em;background:var(--accent);color:#fff;padding:2px 10px;border-radius:8px;margin-right:10px;vertical-align:middle}
   .lesson{margin:0 0 24px}
   .lesson h3{font-size:18px;border-left:5px solid var(--accent);padding:5px 0 5px 12px;margin:0 0 12px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-  .lesson h3 .ltt{flex:1;min-width:0}
+  .lesson h3 .ltt{min-width:0}
   button.yt{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;color:#fff;background:#ff0033;border:none;border-radius:8px;padding:6px 12px;cursor:pointer}
   button.yt .yti{font-size:11px}
   button.yt:hover{filter:brightness(1.08)}
@@ -202,7 +202,7 @@ JS = """
   function closeYt(){ytf.innerHTML='';ytm.classList.remove('show');}
   document.querySelectorAll('button.yt').forEach(function(b){b.onclick=function(){
     if(!au.paused)au.pause();
-    ytf.innerHTML='<iframe src="https://www.youtube.com/embed/'+b.dataset.yt+'?autoplay=1&rel=0&playsinline=1&fs=1" allow="autoplay; encrypted-media; fullscreen" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>';
+    ytf.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/'+b.dataset.yt+'?autoplay=1&rel=0&playsinline=1&fs=1&modestbranding=1" allow="autoplay; encrypted-media; fullscreen" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>';
     ytm.classList.add('show');};});
   ytm.querySelector('.ytclose').onclick=closeYt;
   ytm.onclick=function(e){if(e.target===ytm)closeYt();};
