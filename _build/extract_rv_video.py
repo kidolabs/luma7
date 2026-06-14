@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Fetch a Reading for Vocabulary media page (worldcomedu), solve the CUPID cookie,
-and extract per-lesson: number, title, youtubeUs id, Vocabulary/Reading mp3.
-Writes {letter}_video.json. Usage: extract_rv_video.py <letter>
+"""Fetch a Reading for Vocabulary media page (worldcomedu), solve CUPID cookie,
+extract per-lesson youtube id + Vocabulary/Reading mp3. Title is skipped (matched
+but not captured) so apostrophe titles in double quotes (e.g. "We've Struck Gold!")
+don't break the match. Writes {letter}_video.json. Usage: extract_rv_video.py <letter>
 """
 import sys, re, json, subprocess, urllib.request
 
@@ -20,18 +21,15 @@ if "slowAES" in html:
     html = get(url + "?ckattempt=1", "CUPID=" + p.stdout.strip().replace("\n", ""))
 
 lessons = {}
-# each lesson object: id, number, title, youtubeUs, ... tracks Vocabulary/Reading
+# Just number -> youtube (anchored on lesson id; title skipped, both quote styles).
+# Audio mapping is already correct in spec.json (verified), so tracks are not needed.
 for m in re.finditer(
-    r"\{\s*id:\s*'[^']+',\s*number:\s*(\d+),\s*title:\s*'([^']*)',\s*youtubeUs:\s*'https://youtu\.be/([A-Za-z0-9_-]{11})'.*?tracks:\s*\[(.*?)\]\s*\}",
+    r"id:\s*'unit[\d-]+',\s*number:\s*(\d+),\s*title:\s*(?:'[^']*'|\"[^\"]*\"),\s*"
+    r"youtubeUs:\s*'https://youtu\.be/([A-Za-z0-9_-]{11})'",
     html, re.S):
-    num = int(m.group(1)); title = m.group(2).strip(); yid = m.group(3); tr = m.group(4)
-    parts = dict((lab.split('—')[-1].strip(), mp3.split('/')[-1])
-                 for lab, mp3 in re.findall(r"\['([^']+)',\s*'mp3/[^']+/([^']+)'\]", tr))
-    lessons[str(num)] = {"title": title, "youtube": yid,
-                         "Vocabulary": parts.get("Vocabulary"), "Reading": parts.get("Reading")}
+    lessons[str(int(m.group(1)))] = {"youtube": m.group(2)}
 json.dump({"letter": letter, "n": len(lessons), "lessons": lessons},
           open(f"{letter}_video.json", "w"), ensure_ascii=False, indent=2)
 print(f"[{letter}] {len(lessons)} lessons with video")
-for k in list(lessons)[:2] + [str(len(lessons))]:
-    L = lessons.get(k, {})
-    print(f"  L{k}: {L.get('title')} | yt={L.get('youtube')} | {L.get('Vocabulary')}/{L.get('Reading')}")
+for k in ["1", "2", "3", "4"]:
+    L = lessons.get(k, {}); print(f"  L{k}: yt={L.get('youtube')} | {L.get('Vocabulary')}/{L.get('Reading')}")
