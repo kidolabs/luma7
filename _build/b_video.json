@@ -1,0 +1,72 @@
+{
+  "letter": "b",
+  "n": 11,
+  "lessons": {
+    "1": {
+      "title": "Sharks",
+      "youtube": "AJm6IFkZMoo",
+      "Vocabulary": "rv-b-01.mp3",
+      "Reading": "rv-b-02.mp3"
+    },
+    "2": {
+      "title": "The Pacific Ocean",
+      "youtube": "3nC6n_cDikY",
+      "Vocabulary": "rv-b-03.mp3",
+      "Reading": "rv-b-04.mp3"
+    },
+    "3": {
+      "title": "Pollution",
+      "youtube": "ZBIdZIKFWAE",
+      "Vocabulary": "rv-b-05.mp3",
+      "Reading": "rv-b-06.mp3"
+    },
+    "6": {
+      "title": "Mount Rushmore",
+      "youtube": "YXiNzPgvNi8",
+      "Vocabulary": "rv-b-11.mp3",
+      "Reading": "rv-b-12.mp3"
+    },
+    "8": {
+      "title": "Eclipse",
+      "youtube": "h1Uz-UcOJ1g",
+      "Vocabulary": "rv-b-15.mp3",
+      "Reading": "rv-b-16.mp3"
+    },
+    "9": {
+      "title": "How Much Do You Weigh?",
+      "youtube": "LX-YJLS5JAQ",
+      "Vocabulary": "rv-b-17.mp3",
+      "Reading": "rv-b-18.mp3"
+    },
+    "10": {
+      "title": "Bones",
+      "youtube": "oprvaQ2ZN24",
+      "Vocabulary": "rv-b-19.mp3",
+      "Reading": "rv-b-20.mp3"
+    },
+    "12": {
+      "title": "Staying Healthy",
+      "youtube": "Rd9l6SHZtQM",
+      "Vocabulary": "rv-b-23.mp3",
+      "Reading": "rv-b-24.mp3"
+    },
+    "13": {
+      "title": "Edison the Wizard",
+      "youtube": "_9hy6QSDgVU",
+      "Vocabulary": "rv-b-25.mp3",
+      "Reading": "rv-b-26.mp3"
+    },
+    "14": {
+      "title": "A Dream Come True",
+      "youtube": "Le0cYSPwM08",
+      "Vocabulary": "rv-b-27.mp3",
+      "Reading": "rv-b-28.mp3"
+    },
+    "15": {
+      "title": "Great Player, Great Heart",
+      "youtube": "bMT5XETEJqo",
+      "Vocabulary": "rv-b-29.mp3",
+      "Reading": "rv-b-30.mp3"
+    }
+  }
+}

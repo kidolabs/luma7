@@ -1,0 +1,90 @@
+{
+  "letter": "c",
+  "n": 14,
+  "lessons": {
+    "1": {
+      "title": "In a Land before Time",
+      "youtube": "mMqJ7_f0nTw",
+      "Vocabulary": "rv-c-01.mp3",
+      "Reading": "rv-c-02.mp3"
+    },
+    "2": {
+      "title": "Smart as a Chimp",
+      "youtube": "76Zukmb9LWY",
+      "Vocabulary": "rv-c-03.mp3",
+      "Reading": "rv-c-04.mp3"
+    },
+    "4": {
+      "title": "Fire under the Earth",
+      "youtube": "jBfl35u9sAI",
+      "Vocabulary": "rv-c-07.mp3",
+      "Reading": "rv-c-08.mp3"
+    },
+    "5": {
+      "title": "Never a Warm Day",
+      "youtube": "toQmHOdqOPQ",
+      "Vocabulary": "rv-c-09.mp3",
+      "Reading": "rv-c-10.mp3"
+    },
+    "6": {
+      "title": "Fossil Fuels",
+      "youtube": "S9HNMR0_tuE",
+      "Vocabulary": "rv-c-11.mp3",
+      "Reading": "rv-c-12.mp3"
+    },
+    "7": {
+      "title": "Do You Hear That?",
+      "youtube": "qtmIcwy3k6s",
+      "Vocabulary": "rv-c-13.mp3",
+      "Reading": "rv-c-14.mp3"
+    },
+    "8": {
+      "title": "Too Cool",
+      "youtube": "4ZKYKL7HqbQ",
+      "Vocabulary": "rv-c-15.mp3",
+      "Reading": "rv-c-16.mp3"
+    },
+    "9": {
+      "title": "Bravo! Encore!",
+      "youtube": "7hGaT4MUSmM",
+      "Vocabulary": "rv-c-17.mp3",
+      "Reading": "rv-c-18.mp3"
+    },
+    "10": {
+      "title": "Worker of the Year",
+      "youtube": "n-mMTLONzEA",
+      "Vocabulary": "rv-c-19.mp3",
+      "Reading": "rv-c-20.mp3"
+    },
+    "11": {
+      "title": "Early Robots",
+      "youtube": "nXenSTHI4Ho",
+      "Vocabulary": "rv-c-21.mp3",
+      "Reading": "rv-c-22.mp3"
+    },
+    "12": {
+      "title": "Robot Actors",
+      "youtube": "DLWuRhEV3Jc",
+      "Vocabulary": "rv-c-23.mp3",
+      "Reading": "rv-c-24.mp3"
+    },
+    "13": {
+      "title": "Computer Movies",
+      "youtube": "CDjY3cF4880",
+      "Vocabulary": "rv-c-25.mp3",
+      "Reading": "rv-c-26.mp3"
+    },
+    "14": {
+      "title": "Mighty Paul Bunyan",
+      "youtube": "hfaKrAfo_Go",
+      "Vocabulary": "rv-c-27.mp3",
+      "Reading": "rv-c-28.mp3"
+    },
+    "15": {
+      "title": "Along Came a Mouse",
+      "youtube": "Z88Sq4yzh3g",
+      "Vocabulary": "rv-c-29.mp3",
+      "Reading": "rv-c-30.mp3"
+    }
+  }
+}

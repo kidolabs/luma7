@@ -40,7 +40,9 @@ for ui, (uname, lessons) in enumerate(units, 1):
                        f'<span class="ic">🔊</span> Listen — {kind}</button>')
             blocks.append(f'<div class="block"><div class="btag">{kind}</div>{btn}'
                           f'<div class="imgs">{imgs}</div></div>')
-        lh.append(f'<div class="lesson"><h3>Lesson {L["lesson"]} — {esc(L["title"])}</h3>'
+        yt = (f'<button class="yt" data-yt="{esc(L["youtube"])}" title="Watch video">'
+              f'<span class="yti">▶</span> Video</button>') if L.get("youtube") else ""
+        lh.append(f'<div class="lesson"><h3><span class="ltt">Lesson {L["lesson"]} — {esc(L["title"])}</span>{yt}</h3>'
                   + "".join(blocks) + "</div>")
     body.append(f'<section id="{uid}" class="unit" data-unit="Unit {ui} · {esc(uname)}">'
                 f'<h2 class="unit-h"><span class="unum">UNIT {ui}</span>{esc(uname)}</h2>'
@@ -68,7 +70,16 @@ CSS = """
   .unit-h{font-size:22px;color:var(--accent);background:#eaf2fa;border-radius:10px;padding:12px 16px;margin:0 0 16px}
   .unit-h .unum{display:inline-block;font-size:13px;font-weight:800;letter-spacing:.08em;background:var(--accent);color:#fff;padding:2px 10px;border-radius:8px;margin-right:10px;vertical-align:middle}
   .lesson{margin:0 0 24px}
-  .lesson h3{font-size:18px;border-left:5px solid var(--accent);padding:5px 0 5px 12px;margin:0 0 12px}
+  .lesson h3{font-size:18px;border-left:5px solid var(--accent);padding:5px 0 5px 12px;margin:0 0 12px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .lesson h3 .ltt{flex:1;min-width:0}
+  button.yt{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;color:#fff;background:#ff0033;border:none;border-radius:8px;padding:6px 12px;cursor:pointer}
+  button.yt .yti{font-size:11px}
+  button.yt:hover{filter:brightness(1.08)}
+  #ytmodal{position:fixed;inset:0;z-index:90;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;padding:20px}
+  #ytmodal.show{display:flex}
+  #ytmodal .ytbox{width:min(960px,96vw);aspect-ratio:16/9;position:relative}
+  #ytmodal .ytframe,#ytmodal iframe{width:100%;height:100%;border:0;border-radius:10px;background:#000}
+  #ytmodal .ytclose{position:absolute;top:-42px;right:0;background:#fff;color:#222;border:none;width:36px;height:36px;border-radius:50%;font-size:16px;cursor:pointer}
   .block{background:var(--card);border-radius:12px;padding:14px;margin:12px 0;box-shadow:0 1px 4px rgba(0,0,0,.07)}
   .btag{display:inline-block;font-size:12px;font-weight:700;color:#fff;background:var(--accent);padding:3px 12px;border-radius:10px;margin-bottom:10px}
   button.nghe{display:inline-flex;align-items:center;gap:8px;font-size:15px;font-weight:700;color:#fff;background:var(--accent);border:none;border-radius:10px;padding:10px 18px;margin-bottom:12px;cursor:pointer}
@@ -174,6 +185,15 @@ JS = """
   tg.onclick=function(){hdr.classList.toggle('hidden');
     tg.textContent=hdr.classList.contains('hidden')?'▼':'▲';pad();};
   window.addEventListener('resize',pad);window.addEventListener('load',pad);pad();
+  // youtube video modal
+  var ytm=document.getElementById('ytmodal'),ytf=ytm.querySelector('.ytframe');
+  function closeYt(){ytf.innerHTML='';ytm.classList.remove('show');}
+  document.querySelectorAll('button.yt').forEach(function(b){b.onclick=function(){
+    if(!au.paused)au.pause();
+    ytf.innerHTML='<iframe src="https://www.youtube.com/embed/'+b.dataset.yt+'?autoplay=1&rel=0&playsinline=1" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe>';
+    ytm.classList.add('show');};});
+  ytm.querySelector('.ytclose').onclick=closeYt;
+  ytm.onclick=function(e){if(e.target===ytm)closeYt();};
 """
 
 PLAYER = """<div id="player">
@@ -209,6 +229,7 @@ doc = f"""<!doctype html>
 </header>
 <main>{''.join(body)}</main>
 {PLAYER}
+<div id="ytmodal"><div class="ytbox"><button class="ytclose" title="Close">✕</button><div class="ytframe"></div></div></div>
 <script>{JS}</script>
 </body></html>"""
 (bdir / "index.html").write_text(doc, encoding="utf-8")

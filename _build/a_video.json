@@ -1,0 +1,90 @@
+{
+  "letter": "a",
+  "n": 14,
+  "lessons": {
+    "1": {
+      "title": "We Eat Flowers!",
+      "youtube": "h1jwWJhiZaU",
+      "Vocabulary": "rv-a-01.mp3",
+      "Reading": "rv-a-02.mp3"
+    },
+    "2": {
+      "title": "Not Just for Food",
+      "youtube": "qVSAzggQezc",
+      "Vocabulary": "rv-a-03.mp3",
+      "Reading": "rv-a-04.mp3"
+    },
+    "3": {
+      "title": "Keeping Warm",
+      "youtube": "IETEAkCUc9E",
+      "Vocabulary": "rv-a-05.mp3",
+      "Reading": "rv-a-06.mp3"
+    },
+    "4": {
+      "title": "Animals Help People",
+      "youtube": "1-7BZGeDNfo",
+      "Vocabulary": "rv-a-07.mp3",
+      "Reading": "rv-a-08.mp3"
+    },
+    "5": {
+      "title": "Your Senses",
+      "youtube": "kVHI7Ag-Bv4",
+      "Vocabulary": "rv-a-09.mp3",
+      "Reading": "rv-a-10.mp3"
+    },
+    "6": {
+      "title": "All Grown Up",
+      "youtube": "cYiir5edBTU",
+      "Vocabulary": "rv-a-11.mp3",
+      "Reading": "rv-a-12.mp3"
+    },
+    "7": {
+      "title": "How Old is that Tree?",
+      "youtube": "1BWuSxLCorU",
+      "Vocabulary": "rv-a-13.mp3",
+      "Reading": "rv-a-14.mp3"
+    },
+    "8": {
+      "title": "Save the Forests",
+      "youtube": "H9Qvf8fbNWU",
+      "Vocabulary": "rv-a-15.mp3",
+      "Reading": "rv-a-16.mp3"
+    },
+    "9": {
+      "title": "The Season",
+      "youtube": "kCvCaa7PgMo",
+      "Vocabulary": "rv-a-17.mp3",
+      "Reading": "rv-a-18.mp3"
+    },
+    "10": {
+      "title": "Bad Weather",
+      "youtube": "WUl1fp24cZo",
+      "Vocabulary": "rv-a-19.mp3",
+      "Reading": "rv-a-20.mp3"
+    },
+    "11": {
+      "title": "Dirt is Good!",
+      "youtube": "Ng0i-VhSYCU",
+      "Vocabulary": "rv-a-21.mp3",
+      "Reading": "rv-a-22.mp3"
+    },
+    "12": {
+      "title": "Soil Homes",
+      "youtube": "Ixqm7tG_2h4",
+      "Vocabulary": "rv-a-23.mp3",
+      "Reading": "rv-a-24.mp3"
+    },
+    "13": {
+      "title": "Energy",
+      "youtube": "YT-QjCNBVGo",
+      "Vocabulary": "rv-a-25.mp3",
+      "Reading": "rv-a-26.mp3"
+    },
+    "14": {
+      "title": "Electricity",
+      "youtube": "HsCjEk5stBc",
+      "Vocabulary": "rv-a-27.mp3",
+      "Reading": "rv-a-28.mp3"
+    }
+  }
+}
