@@ -31,7 +31,7 @@ for ui, (uname, lessons) in enumerate(units, 1):
         blocks = []
         for it in L["items"]:
             kind = it["type"]
-            imgs = "".join(f'<img loading="lazy" src="{page_file(p)}" alt="page {p}">' for p in it["pages"])
+            imgs = "".join(f'<img loading="lazy" decoding="async" src="{page_file(p)}" alt="page {p}">' for p in it["pages"])
             btn = ""
             if it.get("mp3"):
                 btn = (f'<button class="nghe" data-src="audio/{esc(it["mp3"])}" '

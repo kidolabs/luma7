@@ -12,7 +12,7 @@ import fitz
 from PIL import Image, ImageEnhance
 
 bdir = Path(sys.argv[1])
-DPI = int(sys.argv[2]) if len(sys.argv) > 2 else 300
+DPI = int(sys.argv[2]) if len(sys.argv) > 2 else 200
 spec = json.loads((bdir / "spec.json").read_text())
 pages_dir = bdir / "pages"
 pages_dir.mkdir(parents=True, exist_ok=True)
@@ -36,7 +36,7 @@ for pn in keep:
     img = ImageEnhance.Color(img).enhance(1.10)       # richer photo colour
     img = ImageEnhance.Contrast(img).enhance(1.05)
     img = ImageEnhance.Sharpness(img).enhance(1.6)     # crisper text edges
-    img.save(pages_dir / f"p{pn:03d}.jpg", "JPEG", quality=92, optimize=True)
-sizes = [f.stat().st_size for f in pages_dir.glob("*.jpg")]
-print(f"{bdir.name}: rendered {len(keep)} pages @ {DPI}dpi (enhanced), "
+    img.save(pages_dir / f"p{pn:03d}.webp", "WEBP", quality=82, method=6)
+sizes = [f.stat().st_size for f in pages_dir.glob("*.webp")]
+print(f"{bdir.name}: rendered {len(keep)} pages @ {DPI}dpi (webp), "
       f"avg {sum(sizes)//len(sizes)//1024}KB, total {sum(sizes)//1024//1024}MB")
